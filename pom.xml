@@ -58,7 +58,7 @@
     <cargo.plugin.version>1.8.3</cargo.plugin.version>
     <jakarta.ejb.version>3.2</jakarta.ejb.version>
     <glassfish.domain.name>domain1</glassfish.domain.name>
-    <glassfish.home>${glassfish.home.prefix}/glassfish6</glassfish.home>
+    <glassfish.home>${glassfish.home.prefix}/glassfish6.2.5</glassfish.home>
     <integration.container.id>glassfish6x</integration.container.id>
     <maven.deploy.skip>true</maven.deploy.skip>
     <maven.javadoc.skip>true</maven.javadoc.skip>
@@ -87,7 +87,7 @@
         </os>
       </activation>
       <properties>
-        <glassfish.home.prefix>${user.home}</glassfish.home.prefix>
+        <glassfish.home.prefix>/home/heisenberg31/dev/servers</glassfish.home.prefix>
         <glassfish.executables.suffix />
       </properties>
     </profile>
